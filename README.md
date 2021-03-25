@@ -22,14 +22,33 @@ I obtained the ESRB Rating dataset from Kaggle. If you want to get started on yo
 After importing all the data I checked it for null values, duplicates and any datatype errors that may present a problem in Exploratory Data Analysis or Machine Learning Modeling
 
 # E - Explore
+To get an idea of what the data was comprised of I represented the data with how many games were exclusive to each console and which were shared between both
+
+![consoles](https://user-images.githubusercontent.com/63601020/112495230-18592300-8d5a-11eb-9eec-e3cd3ad9b270.png)
+
+With the variety available in classifying a games rating I wanted to see how many ratings I was working with with a visual representation
+
+![rating](https://user-images.githubusercontent.com/63601020/112495245-1b541380-8d5a-11eb-8935-799dfff310f4.png)
+
+With only one variable really falling below the threshold of relavence I decided to leave all the available variables in for now
 
 # M - Model
+My final model I settled on a twice refined GridSearched Random Forest model. F1 Score was my most important metric as overall accuracy and ability for the model to rate games in the correct category and not categorize games in the wrong category.
+
+![rfc_model](https://user-images.githubusercontent.com/63601020/112495351-34f55b00-8d5a-11eb-97b8-56dac7dc55a6.png)
+
 
 # N - iNterpret
+Text Wall
 
 # Observations
+Text Wall
 
 # Future Work
+Exploring the variables further, upon investigating the mysterious 'No_Descriptors' 
+
+![no_descriptors](https://user-images.githubusercontent.com/63601020/112495425-450d3a80-8d5a-11eb-948f-e582dc78ede1.png)
+
 
 # For More Information
 See the full analysis in the Jupyter Notebook or review the presentation.
