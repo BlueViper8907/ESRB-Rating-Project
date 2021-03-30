@@ -44,18 +44,76 @@ While running different types of models I decided per the metrics I was targetin
 
 A table better describing the above model. F1 Score was determined to be my most important metric, as I wanted both the accuracy in ability to correctly predict a games rating, but also a high recall so as to not accidently rate a game E when it really should be rated M.
 
-\begin{table}[]
-\begin{tabular}{lllll}
-                              & Precision                 & Recall                    & F1-Score                  & Support                  \\ \hline
-\multicolumn{1}{|l|}{0 = E}   & \multicolumn{1}{l|}{93\%} & \multicolumn{1}{l|}{99\%} & \multicolumn{1}{l|}{96\%} & \multicolumn{1}{l|}{138} \\ \hline
-\multicolumn{1}{|l|}{1 = ET+} & \multicolumn{1}{l|}{74\%} & \multicolumn{1}{l|}{85\%} & \multicolumn{1}{l|}{79\%} & \multicolumn{1}{l|}{143} \\ \hline
-\multicolumn{1}{|l|}{2 = T}   & \multicolumn{1}{l|}{84\%} & \multicolumn{1}{l|}{78\%} & \multicolumn{1}{l|}{80\%} & \multicolumn{1}{l|}{268} \\ \hline
-\multicolumn{1}{|l|}{3 = M}   & \multicolumn{1}{l|}{89\%} & \multicolumn{1}{l|}{82\%} & \multicolumn{1}{l|}{85\%} & \multicolumn{1}{l|}{163} \\ \hline
-                              &                           &                           &                           &                          \\
-Weighted Average              & 85\%                      & 86\%                      & 85\%                      & 712                      \\
-Accuracy: 84.41\%             &                           &                           &                           &                         
-\end{tabular}
-\end{table}
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky"></th>
+    <th class="tg-0pky">Precision</th>
+    <th class="tg-0pky">Recall</th>
+    <th class="tg-0pky">F1-Score</th>
+    <th class="tg-0pky">Support</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">0 = E</td>
+    <td class="tg-0pky">93%</td>
+    <td class="tg-0pky">99%</td>
+    <td class="tg-0pky">96%</td>
+    <td class="tg-0pky">138</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">1 = ET+</td>
+    <td class="tg-0pky">74%</td>
+    <td class="tg-0pky">85%</td>
+    <td class="tg-0pky">79%</td>
+    <td class="tg-0pky">143</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">2 = T</td>
+    <td class="tg-0pky">84%</td>
+    <td class="tg-0pky">78%</td>
+    <td class="tg-0pky">80%</td>
+    <td class="tg-0pky">268</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">3 = M</td>
+    <td class="tg-0pky">89%</td>
+    <td class="tg-0pky">82%</td>
+    <td class="tg-0pky">85%</td>
+    <td class="tg-0pky">163</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Weighted Average</td>
+    <td class="tg-0pky">85%</td>
+    <td class="tg-0pky">86%</td>
+    <td class="tg-0pky">85%</td>
+    <td class="tg-0pky">712</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Accuracy: 84.41%</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+</tbody>
+</table>
 
 
 
