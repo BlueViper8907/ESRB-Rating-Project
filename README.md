@@ -23,21 +23,22 @@ After importing all the data I checked it for null values, duplicates and any da
 
 # E - Explore
 
-![consoles](https://user-images.githubusercontent.com/63601020/112495230-18592300-8d5a-11eb-9eec-e3cd3ad9b270.png)
+![consoles](https://user-images.githubusercontent.com/63601020/114400807-55058680-9b70-11eb-88fc-6687ebd31f3f.png)
 
 To get an idea of what the data was comprised of I represented the data with how many games were exclusive to each console and which were shared between both
 
-![rating](https://user-images.githubusercontent.com/63601020/112495245-1b541380-8d5a-11eb-8935-799dfff310f4.png)
+![rating](https://user-images.githubusercontent.com/63601020/114400834-5cc52b00-9b70-11eb-8287-1bd296562353.png)
 
 With the variety available in classifying a games rating I wanted to see how many ratings I was working with with a visual representation
 
-![heatmap](https://user-images.githubusercontent.com/63601020/112990747-64c6a900-9134-11eb-8eff-02c1eca825a5.png)
+![heatmap](https://user-images.githubusercontent.com/63601020/114400868-664e9300-9b70-11eb-92c9-6b981953b098.png)
 
 Along the bottom row we can see how the esrb rating is coorelated to the variables; some having a positive and negative influence. A curious note we'll come back to is the strong coorelation between the rating and a variable called No_Descriptors
 
 # M - Model
 While running different types of models I decided per the metrics I was targeting that my final model would be a Random Forest model. F1 Score was my most important metric as overall accuracy and ability for the model to rate games in the correct category and not categorize games in the wrong category.
-![rfc_model](https://user-images.githubusercontent.com/63601020/112495351-34f55b00-8d5a-11eb-97b8-56dac7dc55a6.png)
+
+![rfc_model](https://user-images.githubusercontent.com/63601020/114400911-6fd7fb00-9b70-11eb-96e4-0bb106853a76.png)
 
 
 # N - iNterpret
@@ -115,8 +116,7 @@ The model is effective at distinguishing between the extremes in the rating syst
 # Future Work
 Exploring the variables further, upon investigating the mysterious 'No_Descriptors' and its strong influence on E rated games.
 
-![no_descriptors](https://user-images.githubusercontent.com/63601020/112495425-450d3a80-8d5a-11eb-948f-e582dc78ede1.png)
-
+![no_descriptors](https://user-images.githubusercontent.com/63601020/114400949-78c8cc80-9b70-11eb-8c27-f667280bb9f7.png)
 
 # For More Information
 Article from TheGamer about mislabeled games. 
